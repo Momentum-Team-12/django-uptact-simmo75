@@ -19,9 +19,10 @@ class ContactForm(forms.ModelForm):
             
         ]
 
-    class NoteForm(forms.ModelForm):
-        class Meta:
-            model = Note
-            fields = [
-                'note',
-                ]
+class NoteForm(forms.ModelForm):
+    class Meta:
+        model = Note
+        fields = [
+            'note',
+        ]
+
